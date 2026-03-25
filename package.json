@@ -1,0 +1,33 @@
+{
+  "name": "websoket_learning",
+  "version": "1.0.0",
+  "description": "websoket learning",
+  "keywords": [
+    "ws",
+    "express"
+  ],
+  "license": "ISC",
+  "author": "lokesh reddy",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "local": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@socket.io/admin-ui": "^0.5.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "nodemon": "^3.1.11",
+    "pg": "^8.18.0",
+    "pino": "^10.3.0",
+    "postgres": "^3.4.8",
+    "redis": "^5.10.0",
+    "sequelize": "^6.37.7",
+    "socket.io": "^4.8.3"
+  }
+}
